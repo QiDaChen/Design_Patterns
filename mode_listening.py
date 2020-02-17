@@ -43,7 +43,7 @@ class Observer(object):
     '''
     def update(self, observable, obj):
         pass
-    
+
 class MyQueue(Observable):
     def __init__(self):
         super().__init__()
